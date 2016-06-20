@@ -1,0 +1,8 @@
+
+
+ScheduledThreadPoolExecutor provides other methods to schedule periodic tasks. 
+It is the scheduleWithFixedRate() method. It has the same parameters as the scheduledAtFixedRate() method, 
+but there is a difference worth noticing. In the scheduledAtFixedRate() method, the third parameter determines 
+the period of time between the starting of two executions. In the scheduledWithFixedRate() method, parameter 
+determines the period of time between the end of an execution of the task and the beginning of the next execution.
+
