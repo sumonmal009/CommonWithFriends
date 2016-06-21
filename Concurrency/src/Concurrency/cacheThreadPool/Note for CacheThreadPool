@@ -1,0 +1,9 @@
+So what are the benefits of using a cached thread pool ? Well, the docs state them as follows:
+
+1.The pool creates new threads if needed but reuses previously constructed threads if they are available.
+
+2.Cached thread pool helps improve the performance of applications that make many short-lived asynchronous tasks.
+
+3.Only if no threads are available for reuse will a new thread be created and added to the pool.
+
+4.Threads that have not been used for more than sixty seconds are terminated and removed from the cache. Hence a pool which has not been used long enough will not consume any resources.
